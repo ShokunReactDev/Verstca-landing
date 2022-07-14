@@ -1,0 +1,227 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+	.facts{
+		flex-wrap: wrap;
+		justify-content: center
+	}
+	.fact_item{
+		padding: 0px 45px 30px 20px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+	/*section 1*/
+	.service_text{
+		padding: 20px;
+	}
+	.service{
+		margin: 30px 0px 20px 0px;
+		justify-content: center
+	}
+	.directions_content{
+		width: 42%;
+	}
+	/*section 4*/
+	.our_projects{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.projects_1, .projects_2, .projects_3 {
+		margin: 40px 20px 70px 20px;
+	}
+	.img_bg_1, .img_bg_2, .img_bg_3 {
+		width: 250px;
+		height: 200px;
+	}
+	.text_bg_1, .text_bg_2, .text_bg_3 {
+		width: 250px;
+		height: 140px;
+	}
+	.boy_img img{
+		height: 258px;
+		width: ;
+	}
+	.icon_img img{
+		height: 258px;
+	}
+
+	.map_img{
+		top: 6px;
+		left: -21px;
+	}
+	.map_img img{
+		height: 258px;
+		width: 300px;
+		
+	}
+	.family_img{
+		right: 12px;
+	}
+	.family_img img{
+		height: 258px;
+		width: ;
+	}
+	.projects_text{
+		width: 220px;
+		bottom: 64px;
+		left: 16px;
+	}
+	.more a{
+		width: 190px;
+		bottom: 12px;
+		left: 32px;
+	}
+	/*footer*/
+	.contacts{
+		flex-wrap: wrap;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+	/*menu burger - header*/
+	.toggle_button{
+		display: block;
+	}
+	.header-top-bg{
+		position: fixed;
+		width: 100%;
+		z-index: 4;
+		opacity: 1;
+	}
+	.top-menu{
+		position: fixed;
+		top: -100%;
+		left: 0;
+		width: 100%;
+		transition: all 0.3s ease 0s;
+		background-color: #222222;
+		opacity: .93;
+		z-index: 4;
+		padding: 70px 10px 20px 10px
+	}
+	.top-menu ul {
+		display: block
+	}
+	.top-menu li {
+		margin: 0px 0px 20px 0px;
+	}
+	.header-top-bg{
+		height: 50px
+	}
+	.logo img{
+		height: 50px;
+	}
+	.header-bottom{
+		display: block;
+		font-display: column;
+	}
+	.header-bottom-left {
+		display: none
+	}
+	.header-bottom-right{
+		width: 100%;
+		padding-bottom: 15px;
+	}
+	/*section 1*/
+	.service{
+		margin: 20px 0px 20px 0px;
+		justify-content: center
+	}
+	/*section 3*/
+	.directions_work{
+		margin: 15px;
+	}
+	/*footer*/
+	.letter{
+		display: none;
+	}
+	.phone{
+		margin: 0;
+	}
+	.contacts{
+		display: block;
+		flex-direction: column;
+		padding-left: 40px;
+		width: auto;
+	}
+	.text_footer{
+		display: none
+	}
+	.container_footer{
+		height: 850px;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	/*section 1*/
+	.service{
+		width: 100%;
+	}
+	/*section 3*/
+	.directions_content{
+		width: 100%;
+		justify-content: center
+	}
+	/*section 4*/
+	.projects_1, .projects_2, .projects_3 {
+		margin: 40px 20px 70px 20px;
+	}
+	/*footer*/
+	.feedback input{
+		width: 280px;
+	}
+	.message textarea{
+		width: 280px;
+	}
+	.contacts_group{
+		width: 280px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+	/*section 1*/
+	.service_text{
+		padding: 22px;
+	}
+	/*section 2*/
+	.fact_item{
+		margin-left: 10%;
+	}
+}
+
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+	.container{
+		width:750px
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+	.container{
+		width:970px
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+	.container{
+		width:1170px
+	}
+}
